@@ -1,0 +1,22 @@
+.comment-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.comment-container strong {
+  font-weight: bold;
+}
+
+.commenter {
+  color: #333;
+}
+
+.comment-body {
+  margin-top: 5px;
+}
+
+.destroy-link {
+  color: red;
+  cursor: pointer;
+}

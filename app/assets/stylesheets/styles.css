@@ -1,0 +1,73 @@
+/* Terminal-like styles */
+body {
+  background-color: #000;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 44px;
+  color: #6A5ACD;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: serif;
+}
+
+p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.NewArticle {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.NewArticle a {
+  /* Link styles */
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s; /* Add transition for smoother effect */
+}
+
+#pongGame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.NewArticle a:hover {
+  color: #0052b3; /* Change text color on hover */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #4ec9b0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style for the "New Article" link */
+#new_article {
+  display: block;
+  margin-top: 20px;
+  color: #4ec9b0;
+}
+
